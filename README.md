@@ -25,4 +25,9 @@ The main notebook is [`project_main.ipynb`](project_main.ipynb), which contains 
   - [Download Here](https://www.openslr.org/12)  
   - Audio files are `.flac` format, sampled at 16 kHz.  
   - Place the dataset in a folder structure like:
-
+data/
+└── LibriSpeech/
+└── train-clean-100/
+└── <speaker_id>/
+└── <chapter_id>/
+└── <audio_file>.flac
