@@ -1,7 +1,5 @@
 # Project- Secure Voice - Speech-based verification 
 
-# Speech Verification (One-to-One)
-
 This project implements a **speech verification system** that determines whether two audio samples belong to the **same speaker** or **different speakers**.
 
 It uses the **LibriSpeech `train-clean-100` dataset** for training and evaluation.  
