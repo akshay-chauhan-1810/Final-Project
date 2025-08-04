@@ -7,6 +7,15 @@ The main notebook is [`project_main.ipynb`](project_main.ipynb), which contains 
 
 ---
 
+## Quick Start
+
+1. **Run online**: Click the "Open in Colab" button above
+2. **Run locally**:
+   ```bash
+   git clone https://github.com/akshay-chauhan-1810/Final-Project.git
+   jupyter notebook project_main.ipynb
+
+---
 ## Features
 
 - One-to-one speaker verification
@@ -25,7 +34,8 @@ The main notebook is [`project_main.ipynb`](project_main.ipynb), which contains 
   - Place the dataset in a folder structure like:
 data/
 └── LibriSpeech/
-└── train-clean-100/
-└── <speaker_id>/
-└── <chapter_id>/
-└── <audio_file>.flac
+    └── train-clean-100/
+        └── <speaker_id>/
+            └── <chapter_id>/
+                └── <audio_file>.flac
+
