@@ -1,1 +1,28 @@
 # Project- Secure Voice - Speech-based verification 
+
+# Speech Verification (One-to-One)
+
+This project implements a **speech verification system** that determines whether two audio samples belong to the **same speaker** or **different speakers**.
+
+It uses the **LibriSpeech `train-clean-100` dataset** for training and evaluation.  
+The main notebook is [`project_main.ipynb`](project_main.ipynb), which contains data processing, model training, and verification steps.
+
+---
+
+## Features
+
+- One-to-one speaker verification
+- Preprocessing of the **LibriSpeech** audio dataset
+- Feature extraction (MFCCs / spectrograms)
+- Model training for speaker verification
+- Evaluation on test audio samples
+
+---
+
+## Dataset
+
+- **LibriSpeech `train-clean-100`**  
+  - [Download Here](https://www.openslr.org/12)  
+  - Audio files are `.flac` format, sampled at 16 kHz.  
+  - Place the dataset in a folder structure like:
+
