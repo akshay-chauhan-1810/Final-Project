@@ -1,6 +1,6 @@
 # Final Project- Secure Voice - Speech-based verification 
 
-This project implements a **speech verification system** that determines whether two audio samples belong to the **same speaker** or **different speakers**.
+This project implements a **speech verification system** that determines whether audio samples belong to the **same speaker** or **different speakers**.
 
 It uses the **LibriSpeech `train-clean-100` dataset** for training and evaluation.  
 The main notebook is [`project_main.ipynb`](project_main.ipynb), which contains data processing, model training, and verification steps.
